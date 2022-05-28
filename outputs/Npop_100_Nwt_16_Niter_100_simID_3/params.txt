@@ -1,0 +1,2 @@
+N_pop, N_wt, hub_height, rotor_diameter, min_dist, init_min_dist, turbine_grid_points, wt_power, no_wdir_bins_opt, wspeed_opt, wake_model, N_grid_points_short_side, N_PROCESSES_PARALLEL, N_ITER, mu_I, mu_F, p_M, n_E, max_iter_cross_over, sim_ID
+100 16 146 236 1180 1191.8 3 15 72 10.5 gch 500 16 100 0.3 0.5 0.5 0.05 10000 3 

@@ -1,0 +1,23 @@
+conda create -n floris -c conda-forge spyder=5.3.0
+
+conda activate floris
+
+conda install -c conda-forge attrs pyyaml numexpr numpy scipy matplotlib pandas shapely pytest coloredlogs
+
+conda install -c conda-forge pyoptsparse
+
+git clone -b main https://github.com/NREL/floris.git
+pip install -e floris
+
+conda install -c conda-forge cfgrib
+
+conda install -c conda-forge cdsapi 
+
+conda install -c conda-forge windrose 
+
+conda install -c conda-forge mpi4py
+
+
+
+---
+conda create -n floris -c conda-forge spyder=5.3.0 pyyaml numexpr numpy scipy matplotlib pandas shapely
